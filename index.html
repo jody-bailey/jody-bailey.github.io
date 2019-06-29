@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="shortcut icon" href="./img/favicon.ico">
+  <title>Jody Bailey</title>
+
+  <!-- GOOGLE FONTS -->
+  <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700&display=swap" rel="stylesheet">
+  <!-- BOOTSTRAP -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <!-- CUSTOM STYLES -->
+  <link rel="stylesheet" href="./css/styles.css">
+</head>
+
+<body>
+
+  <header class="section-header">
+    <nav class="navbar fixed-top navbar-expand-lg bg-dark">
+      <a class="navbar-brand blue-font" href="#">Jody Bailey</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item active">
+            <a class="nav-link blue-font" href="#">Home <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link blue-font" href="#about">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link blue-font" href="#portfolio">Portfolio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link blue-font" href="#contact">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <div class="container-fluid full-height">
+      <div class="hero-text-box">
+        <h1>Jody Bailey</h1>
+        <h3>Welcome to my page.</h3>
+        <p>Here you can find my greatest accomplishments as a Web Developer.</p>
+        <a href="#portfolio" class="btn btn-lg blue-btn">Portfolio</a>
+        <a href="./resources/SoftwareDevelopmentResume.pdf" class="btn btn-lg blue-btn-outline" download="Jody's Resume">Resume</a>
+      </div>
+    </div>
+  </header>
+
+  <section class="section-about" id="about">
+    <div class="container-fluid">
+      <div class="header-text">
+        <h2>About Me</h2>
+      </div>
+      <p class="long-text">I am a very passionate Web Developer. I began my career as a Software Developer and eventually became fascinated with the web and the many technologies that are around for development.
+        My main skill set is mostly back-end because of my Software Development experience. I have started learning about color theory and typography and how important that is when developing
+        the front-end of web applications. I love modern designs and telling a story with the layout of the website with the visual hierachy. I look forward to a long and rewarding career in this field.</p>
+    </div>
+  </section>
+
+  <section class="section-portfolio" id="portfolio">
+    <div class="container-fluid">
+      <div class="header-text">
+        <h2>Portfolio</h2>
+      </div>
+      <div class="row">
+        <div class="col-lg-6">
+          <div class="card">
+            <img class="card-image" src="./img/omnifood.png" alt="Omnifood Project Photo" />
+            <a href="https://jody-bailey.github.io/Omnifood" target="_blank" class="btn btn-dark port-btn">Visit Website</a>
+          </div>
+        </div>
+        <div class="col-lg-6">
+          <div class="card">
+            <img class="card-image" src="./img/tindog.png" alt="TinDog Project Photo" />
+            <a href="https://jody-bailey.github.io/tindog" target="_blank" class="btn btn-dark port-btn">Visit Website</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section-contact" id="contact">
+    <div class="container-fluid">
+      <div class="header-text">
+        <h2>Contact Me</h2>
+      </div>
+      <form>
+        <div class="form-group">
+          <label for="FormControlName">Full Name</label>
+          <input class="form-control" id="FormControlName" type="text" name="name" value="" placeholder="John Doe" />
+        </div>
+        <div class="form-group">
+          <label for="FormControlEmail">Email Address</label>
+          <input class="form-control" id="FormControlEmail" type="email" name="email" placeholder="johndoe@example.com" />
+        </div>
+        <div class="form-group">
+          <label for="FormControlSubject">Subject</label>
+          <input class="form-control" id="FormControlSubject" type="text" name="subject" placeholder="Job Offer" />
+        </div>
+        <div class="form-group">
+          <label for="FormControlMessage">Message</label>
+          <textarea class="form-control" id="FormControlMessage" name="message" rows="8" cols="80" placeholder="Your message..."></textarea>
+        </div>
+      </form>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container-fluid">
+      <h5>&copy; Jody Bailey 2019</h5>
+    </div>
+  </footer>
+
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+</body>
+
+</html>

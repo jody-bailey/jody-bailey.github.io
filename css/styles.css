@@ -1,0 +1,183 @@
+body {
+  padding: 0;
+  margin: 0;
+  font-family: 'Lato', sans-serif;
+}
+
+h1 {
+  font-size: 400%;
+  font-weight: 300;
+  margin: 0 0 50px;
+}
+
+header h2 {
+  font-weight: 300;
+}
+
+header p {
+  font-size: 110%;
+  margin-bottom: 50px;
+}
+
+header {
+  text-align: center;
+}
+
+.blue-font {
+  color: #00cec9;
+}
+
+.navbar {
+  padding: 0 5%;
+  font-size: 150%;
+}
+
+.navbar-brand {
+  font-size: 150%;
+}
+
+.navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(0, 206, 201, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+.active {
+  color: #fff;
+}
+
+.blue-btn {
+  background: #00cec9;
+  border-color: #00cec9;
+  margin-right: 20px;
+  font-weight: bold;
+}
+
+.blue-btn-outline {
+  background: transparent;
+  border: 1px solid #00cec9;
+  color: #fff;
+}
+
+.container-fluid {
+  padding: 7% 15%;
+}
+
+.section-header {
+  height: 100vh;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('../img/background.jpg');
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
+  color: #fff;
+}
+
+.full-height {
+  height: 100vh;
+}
+
+.hero-text-box {
+    position: absolute;
+    width: 1140px;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+.header-alignment {
+  position: absolute;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.header-text {
+  text-align: center;
+}
+
+.section-about {
+  background-color: #2d3436;
+  color: #fff;
+}
+
+.section-portfolio {
+  background-color: #636e72;
+  color: #fff;
+}
+
+.section-portfolio h2 {
+  padding-bottom: 30px;
+}
+
+.card {
+  overflow: hidden;
+  background-color: #636e72;
+  background-position: center;
+  background-size: cover;
+  padding: 0;
+  text-align: center;
+}
+
+.card a {
+  line-height: 2;
+  text-decoration: none;
+}
+
+.port-btn {
+  width: 50%;
+  align-self: center;
+  margin: 3px 0;
+}
+
+.card-image {
+  opacity: 0.8;
+  width: auto;
+  height: 250px;
+  object-fit: cover;
+  object-position: center;
+  transition: opacity 0.3s;
+}
+
+.card-image:hover {
+  opacity: 1;
+  cursor: pointer;
+}
+
+.long-text {
+  padding: 0 15%;
+  line-height: 2;
+}
+
+.section-contact {
+  background-color: #b2bec3;
+  text-align: center;
+}
+
+form {
+  margin: 30px auto;
+  align-self: center;
+  text-align: left;
+  max-width: 500px;
+}
+
+footer .container-fluid {
+  padding: 0;
+}
+
+footer {
+  background-color: #343a40;
+  padding: 3% 10%;
+  text-align: center;
+  color: #00cec9;
+}
+
+@media screen and (max-width: 1195px) {
+  .container-fluid {
+    padding: 3% 5%;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .card {
+    padding-bottom: 30px;
+  }
+}
